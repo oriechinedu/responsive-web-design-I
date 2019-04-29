@@ -327,3 +327,39 @@ footer {
   }
 }
 
+@media (max-width: 500px) {
+
+  main {
+    margin-top: 330px;
+    padding   : 1.2rem;
+  }
+
+  .container {
+    margin : 0;
+    padding: 0;
+  }
+
+  .navigation {
+    padding: 0;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .col-2,
+  .col-3 {
+    flex-basis: 100%;
+    margin    : 1.5rem auto;
+  }
+
+  .navbar a {
+    width        : inherit;
+    border-bottom: 1px solid #ccc;
+    text-align   : center;
+  }
+
+  .navbar:first-child {
+    border-top: 1px solid #ccc;
+  }
+}
